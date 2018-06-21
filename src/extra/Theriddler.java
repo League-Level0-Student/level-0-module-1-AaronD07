@@ -43,5 +43,6 @@ else {
 	System.out.println(i = -30);
 	
 }
+System.out.println(i);
 	}
 }
