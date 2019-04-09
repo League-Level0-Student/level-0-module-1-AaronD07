@@ -7,9 +7,15 @@ public class secretmesagebox {
 		
 	
 
-	String c = "9152007";
+	String c = "100";
 	String x = JOptionPane.showInputDialog("Give me a secret message.");
-String j = JOptionPane.showInputDialog("What is the password, child."); {
+String j = JOptionPane.showInputDialog("What is the password?"); {
+	if( c.equals(j)) {
+		JOptionPane.showMessageDialog(null, "Congratulations, the secret message was: " + x);
+	}
+	else {
+		JOptionPane.showMessageDialog(null, "Intruder!");
+	}
 }
 }
 }
